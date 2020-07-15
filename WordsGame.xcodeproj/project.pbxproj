@@ -13,6 +13,7 @@
 		96807DDB24BECF3A00DD1C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96807DDA24BECF3A00DD1C49 /* Assets.xcassets */; };
 		96807DDE24BECF3A00DD1C49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96807DDD24BECF3A00DD1C49 /* Preview Assets.xcassets */; };
 		96807DE124BECF3A00DD1C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96807DDF24BECF3A00DD1C49 /* LaunchScreen.storyboard */; };
+		96807DE924BECF6600DD1C49 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96807DE824BECF6600DD1C49 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		96807DDD24BECF3A00DD1C49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96807DE024BECF3A00DD1C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96807DE224BECF3A00DD1C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96807DE824BECF6600DD1C49 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		96807DD324BECF3700DD1C49 /* WordsGame */ = {
 			isa = PBXGroup;
 			children = (
+				96807DE824BECF6600DD1C49 /* start.txt */,
 				96807DD424BECF3700DD1C49 /* AppDelegate.swift */,
 				96807DD624BECF3700DD1C49 /* SceneDelegate.swift */,
 				96807DD824BECF3700DD1C49 /* ContentView.swift */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96807DE124BECF3A00DD1C49 /* LaunchScreen.storyboard in Resources */,
+				96807DE924BECF6600DD1C49 /* start.txt in Resources */,
 				96807DDE24BECF3A00DD1C49 /* Preview Assets.xcassets in Resources */,
 				96807DDB24BECF3A00DD1C49 /* Assets.xcassets in Resources */,
 			);
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = NBL2DFM5E9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WordsGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = NBL2DFM5E9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WordsGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
